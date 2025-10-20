@@ -1,22 +1,41 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
+  - title: "∆ DELTA: Language Diffusion-based EEG-to-Text Architecture"
+    authors: <strong>Hyobin Kim</strong>, Mingyu Jeon
+    conference_short: NeurIPSW
+    conference: The Thirty-Ninth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
+    presentation: https://arxiv.org/pdf/2306.00988.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+    image: ./assets/img/delta.png
+    notes: Poster
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+  - title: "Biosensing-Driven Cognitive Augmentation: Real-Time Mind Wandering Detection and Robot Intervention"
+    authors: <strong>Hyobin Kim</strong>, Jinkwon Lee, Seoyeong Kim, Jangwon Lee, Hayoung Oh
+    conference_short: UbicompW
+    conference: Companion of the ACM International Joint Conference on Pervasive and Ubiquitous Computing <strong>(UbiComp Companion '25)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    notes: Oral
+    image: ./assets/img/BioMW.png
+
+  - title: "Construction of Clinical Practice Guidelines-based knowledge graphs aligned with OMOP CDM"
+    authors: Suhyun Kim, Jiwon Kim, <strong>Hyobin Kim</strong>, Kwangsoo Kim
+    conference_short: KDH
+    conference: Korean society of Digital Health Fall Conference, 2025.
+    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: 2nd Prize
+    image: ./assets/img/CPG-KG.png
+
+  - title: "EEG-Based Group Contrastive Learning Framework for Neuroadaptive CBT Response Generation"
+    authors: Jinkwon Lee, <strong>Hyobin Kim</strong>, Myungjoo Song, Semi Hwang, Jiyoon Kim, Hayoung Oh
+    conference_short: KoreAAI
+    conference: The 6th Korea Artificial Intelligence Conference, 2025.
+    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Oral
+    image: ./assets/img/KoreAAI.png

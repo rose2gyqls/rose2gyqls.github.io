@@ -2,3 +2,63 @@
 ---
 
 @import "minimal-light-no-dark-mode";
+
+body {
+  padding-top: 30px; /* prevent content under fixed nav */
+}
+
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* right align */
+  gap: 28px;
+  padding: 0 32px;
+  z-index: 1000;
+  background: #12284b; /* dark navy bar */
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.site-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.10rem; /* slightly smaller for better balance */
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  body { padding-top: 60px; }
+  .site-nav { height: 52px; gap: 16px; padding: 0 16px; }
+  .site-nav a { font-size: 0.95rem; }
+}
+
+/* Keep default theme typography and widths (no overrides) */
+
+/* Push the fixed left profile header below the top nav */
+header {
+  top: 64px;
+  z-index: 100; /* Lower than top nav but above section content */
+}
+
+section {
+  position: relative;
+  z-index: 1; /* Below both nav and header */
+}
+
+/* Prevent overlap when jumping to in-page headings */
+h1, h2, h3 { scroll-margin-top: 72px; }
+
+@media print, screen and (max-width: 960px) {
+  .wrapper { width: auto; }
+  header, section { width: auto; }
+  /* Reset z-index for mobile layout where position becomes static */
+  header, section { z-index: auto; }
+}
