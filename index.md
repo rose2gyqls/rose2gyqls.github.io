@@ -20,7 +20,7 @@ My research centers around **one core question**: how can we design multimodal A
 
 - **M.S.** Dept. of Applied Artificial Intelligence, Sungkyunkwan University
     - 2023.08. - 2025.08
-    - GPA : 4.43 /4.50
+    - GPA : 4.30 /4.50
 - **B.S.** Dept. of Computer Science and Engineering, Soongsil University
     - 2020.03. - 2023.08
     - GPA : 4.41 /4.50
