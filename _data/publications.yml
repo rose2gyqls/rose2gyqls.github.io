@@ -4,8 +4,8 @@ main:
     authors: <strong>Hyobin Kim</strong>, Mingyu Jeon
     conference_short: NeurIPSW
     conference: The Thirty-Ninth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
-    pdf: 
-    code: 
+    pdf: https://openreview.net/attachment?id=Hw3wWRyLs4&name=pdf
+    code: https://github.com/rose2gyqls/DELTA-Language-Diffusion-based-EEG-to-Text-Architecture
     image: ./assets/img/delta.png
     notes: Poster
 
