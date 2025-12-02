@@ -1,4 +1,12 @@
 main:
+  - title: "EEG-Informed Neuroadaptive Language Model for CBT"
+    authors: <strong>Hyobin Kim</strong>, Jinkwon Lee, Hayoung Oh
+    conference_short: SAC
+    conference: The 41st ACM/SIGAPP Symposium On Applied Computing <strong>(SAC)</strong>, 2026.
+    pdf: 
+    code: 
+    presentation: 
+    image: ./assets/img/SAC.png
 
   - title: "∆ DELTA: Language Diffusion-based EEG-to-Text Architecture"
     authors: <strong>Hyobin Kim</strong>, Mingyu Jeon
@@ -6,13 +14,13 @@ main:
     conference: The Thirty-Ninth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: https://openreview.net/attachment?id=Hw3wWRyLs4&name=pdf
     code: https://github.com/rose2gyqls/DELTA-Language-Diffusion-based-EEG-to-Text-Architecture
+    presentation: https://neurips.cc/media/PosterPDFs/NeurIPS%202025/132693.png?t=1764640948.7964377
     image: ./assets/img/delta.png
-    notes: Poster
 
   - title: "Biosensing-Driven Cognitive Augmentation: Real-Time Mind Wandering Detection and Robot Intervention"
     authors: <strong>Hyobin Kim</strong>, Jinkwon Lee, Seoyeong Kim, Jangwon Lee, Hayoung Oh
     conference_short: UbicompW
-    conference: Companion of the ACM International Joint Conference on Pervasive and Ubiquitous Computing <strong>(UbiComp Companion '25)</strong>, 2025.
+    conference: Companion of the ACM International Joint Conference on Pervasive and Ubiquitous Computing <strong>(UbiComp)</strong>, 2025.
     pdf: 
     code: https://github.com/rose2gyqls/BioMW
     notes: Oral
@@ -27,20 +35,10 @@ main:
     notes: 2nd Prize
     image: ./assets/img/CPG-KG.png
 
-  - title: "EEG-Based Group Contrastive Learning Framework for Neuroadaptive CBT Response Generation"
-    authors: Jinkwon Lee, <strong>Hyobin Kim</strong>, Myungjoo Song, Semi Hwang, Jiyoon Kim, Hayoung Oh
-    conference_short: KoreAAI
-    conference: The 6th Korea Artificial Intelligence Conference, 2025.
-    pdf: 
-    code: 
-    notes: Oral
-    image: ./assets/img/KoreAAI.png
-
   - title: "Designing and Implementing Real-Time Multimodal Virtual Human for Alexithymia"
     authors: <strong>Hyobin Kim</strong>, Hayoung Oh
     conference_short: ASK
     conference: Annual Symposium of Korea Information Processing Society, 2025.
     pdf: 
     code: https://github.com/rose2gyqls/Digital-Human
-    notes: Poster
     image: ./assets/img/ASK.png
