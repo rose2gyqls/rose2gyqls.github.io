@@ -39,6 +39,6 @@ main:
     authors: <strong>Hyobin Kim</strong>, Hayoung Oh
     conference_short: ASK
     conference: Annual Symposium of Korea Information Processing Society, 2025.
-    pdf: 
+    pdf: https://www.koreascience.kr/article/CFKO202521036007819.pdf
     code: https://github.com/rose2gyqls/Digital-Human
     image: ./assets/img/ASK.png
