@@ -4,7 +4,7 @@ main:
     conference_short: SAC
     conference: The 41st ACM/SIGAPP Symposium On Applied Computing <strong>(SAC)</strong>, 2026.
     pdf: 
-    code: 
+    code: https://github.com/rose2gyqls/NeuroCBT
     presentation: 
     image: ./assets/img/SAC.png
 
@@ -21,7 +21,7 @@ main:
     authors: <strong>Hyobin Kim</strong>, Jinkwon Lee, Seoyeong Kim, Jangwon Lee, Hayoung Oh
     conference_short: UbicompW
     conference: Companion of the ACM International Joint Conference on Pervasive and Ubiquitous Computing <strong>(UbiComp)</strong>, 2025.
-    pdf: 
+    pdf: https://dl.acm.org/doi/epdf/10.1145/3714394.3756161
     code: https://github.com/rose2gyqls/BioMW
     notes: Oral
     image: ./assets/img/BioMW.png
