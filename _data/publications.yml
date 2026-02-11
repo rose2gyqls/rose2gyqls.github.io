@@ -1,4 +1,14 @@
 main:
+  - title: "EEG-to-Text as Restoration: A Discrete Diffusion Framework for Robust BCI"
+    authors: Mingyu Jeon, <strong>Hyobin Kim</strong>
+    conference_short: ICASSP
+    conference: IEEE International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong>, 2026.
+    pdf: 
+    code: https://github.com/rose2gyqls/DELTA-Language-Diffusion-based-EEG-to-Text-Architecture
+    presentation: 
+    notes: Oral
+    image: ./assets/img/icassp26.png
+
   - title: "EEG-Informed Neuroadaptive Language Model for CBT"
     authors: <strong>Hyobin Kim</strong>, Jinkwon Lee, Hayoung Oh
     conference_short: SAC
@@ -6,16 +16,17 @@ main:
     pdf: 
     code: https://github.com/rose2gyqls/NeuroCBT
     presentation: 
+    notes: Oral
     image: ./assets/img/SAC.png
 
   - title: "∆ DELTA: Language Diffusion-based EEG-to-Text Architecture"
-    authors: <strong>Hyobin Kim</strong>, Mingyu Jeon
+    authors: Mingyu Jeon, <strong>Hyobin Kim</strong>
     conference_short: NeurIPSW
     conference: The Thirty-Ninth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: https://openreview.net/attachment?id=Hw3wWRyLs4&name=pdf
     code: https://github.com/rose2gyqls/DELTA-Language-Diffusion-based-EEG-to-Text-Architecture
     presentation: https://neurips.cc/media/PosterPDFs/NeurIPS%202025/132693.png?t=1764640948.7964377
-    image: ./assets/img/delta.png
+    image: ./assets/img/neurips25.png
 
   - title: "Biosensing-Driven Cognitive Augmentation: Real-Time Mind Wandering Detection and Robot Intervention"
     authors: <strong>Hyobin Kim</strong>, Jinkwon Lee, Seoyeong Kim, Jangwon Lee, Hayoung Oh
@@ -33,7 +44,7 @@ main:
     pdf: 
     code: https://github.com/rose2gyqls/Agent-for-ClinicalKG
     notes: 2nd Prize
-    image: ./assets/img/CPG-KG.png
+    image: ./assets/img/KDH.png
 
   - title: "Designing and Implementing Real-Time Multimodal Virtual Human for Alexithymia"
     authors: <strong>Hyobin Kim</strong>, Hayoung Oh

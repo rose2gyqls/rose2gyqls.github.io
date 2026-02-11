@@ -25,6 +25,7 @@ My research centers around **one core question**: how can we design multimodal A
 
 ## News
 
+- 🎉 **[Jan. 2026]** Our paper about EEG-to-Text is accepted to ICASSP 2026.
 - 🎉 **[Nov. 2025]** Our paper about Neuroadaptive EEG is accepted to SAC 2026.
 - 🎉 **[Oct. 2025]** Our paper about EEG-to-Text is accepted to NeurIPSW 2025.
 - 🏆 **[Sep. 2025]** Received the Encouragement Award at 2025 Digital Health Conference.
