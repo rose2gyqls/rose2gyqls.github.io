@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Welcome to My Blog"
+title: "블로그를 시작하며"
 date: 2026-04-04
-description: "First post on my research blog."
+description: "연구 블로그의 첫 번째 포스팅입니다."
 tags: [blog]
 ---
 
-Welcome to my blog! Here, I'll be sharing my thoughts on research, AI, biosignal processing, and more.
+블로그에 오신 것을 환영합니다! 앞으로 이곳에서 연구 이야기, AI, 생체신호 처리 등 다양한 주제에 대한 생각을 나눠볼 예정이에요.
 
-Stay tuned for updates!
+새로운 글이 올라올 때마다 찾아와 주세요!

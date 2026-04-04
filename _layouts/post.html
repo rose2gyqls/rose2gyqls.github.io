@@ -117,9 +117,33 @@
         </p>
       </div>
 
-      <div class="post-content">
+      <div class="post-content" id="post-body">
         {{ content }}
       </div>
+
+      <script>
+        (function() {
+          var body = document.getElementById('post-body');
+          var headings = body.querySelectorAll('h2, h3');
+          if (headings.length === 0) return;
+
+          // Assign IDs to headings that don't have one
+          headings.forEach(function(h, i) {
+            if (!h.id) {
+              h.id = 'section-' + i;
+            }
+          });
+
+          var tocHtml = '<details class="toc-container" open><summary>목차</summary><ul>';
+          headings.forEach(function(h) {
+            var indent = h.tagName === 'H3' ? 'style="margin-left:16px;"' : '';
+            tocHtml += '<li ' + indent + '><a href="#' + h.id + '">' + h.textContent + '</a></li>';
+          });
+          tocHtml += '</ul></details>';
+
+          body.insertAdjacentHTML('afterbegin', tocHtml);
+        })();
+      </script>
 
       <br>
       <hr>

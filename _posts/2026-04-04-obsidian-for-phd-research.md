@@ -1,46 +1,46 @@
 ---
 layout: post
-title: "How I Use Obsidian as a PhD Research Database"
+title: "박사과정 연구 데이터베이스로 Obsidian 활용하기"
 date: 2026-04-04 13:00:00 +0900
-description: "A working note on how I am turning Obsidian into a literature database, idea incubator, and project operating system for medical AI research."
+description: "Obsidian을 문헌 데이터베이스, 아이디어 인큐베이터, 그리고 프로젝트 운영 시스템으로 만들어가는 과정을 기록합니다."
 tags: [obsidian, research, phd, medical-ai, productivity]
 ---
 
-This post is a working document rather than a finished manifesto. I am currently restructuring my Obsidian vault so it can function as a real research database for my PhD life in medical AI, not just as a note-taking app. The goal is simple: make it easier to store papers, generate ideas, connect them to active projects, and keep my day-to-day research context visible without scattering it across too many tools.
+이 글은 완성된 가이드라기보다는 하나의 작업 기록에 가깝다. 지금 나는 Obsidian 볼트를 단순한 노트 앱이 아니라, 의료 AI 박사과정을 위한 진짜 연구 데이터베이스로 재구성하고 있는 중이다. 목표는 단순하다. 논문을 저장하고, 아이디어를 만들고, 그것들을 진행 중인 프로젝트에 연결하고, 일상적인 연구 맥락을 여러 도구에 흩뿌리지 않고 한눈에 볼 수 있게 만드는 것.
 
-At the moment, I am using this system around four active research lines: `MapOMOP`, `KG Agent`, `Holter`, and `ECGFM`. On top of that, I also need room for proposal writing and lab operations. So the vault is being designed not as a generic second brain, but as an operating system for actual doctoral work.
+현재 `MapOMOP`, `KG Agent`, `Holter`, `ECGFM`이라는 네 개의 연구 라인을 중심으로 이 시스템을 운영하고 있다. 여기에 더해 연구 제안서 작성과 랩 운영 업무까지 담아야 하기 때문에, 볼트는 범용적인 '제2의 뇌'가 아니라 실제 박사과정 업무를 위한 운영 체제로 설계하고 있다.
 
-## Why I am using Obsidian this way
+## 왜 Obsidian을 이런 방식으로 쓰는가
 
-What I need most is not just a place to archive information. I need a system that does four things well:
+내가 가장 필요로 하는 건 단순히 정보를 아카이브할 공간이 아니다. 네 가지를 잘 해내는 시스템이 필요하다.
 
-1. Store papers in a way that remains searchable and reusable.
-2. Help me turn reading into project-relevant ideas.
-3. Keep the current state of each project visible.
-4. Preserve enough daily and weekly context to avoid rethinking the same thing over and over.
+1. 논문을 검색 가능하고 재사용 가능한 형태로 저장한다.
+2. 읽은 내용을 프로젝트와 관련된 아이디어로 전환한다.
+3. 각 프로젝트의 현재 상태를 한눈에 볼 수 있게 유지한다.
+4. 같은 생각을 반복하지 않도록 충분한 일간·주간 맥락을 보존한다.
 
-For me, the key shift is treating Obsidian as a structured Markdown database rather than a pile of notes. A paper should not remain only as a PDF. An idea should not remain only in a daily note. A project should not depend on my memory of what I was thinking last week.
+나에게 핵심적인 전환점은 Obsidian을 '노트 더미'가 아니라 구조화된 마크다운 데이터베이스로 다루기 시작한 것이다. 논문은 PDF 파일로만 남아서는 안 되고, 아이디어는 데일리 노트 안에서만 머물러서는 안 되며, 프로젝트가 지난주에 내가 뭘 생각했는지에 대한 기억력에 의존해서는 안 된다.
 
-## The operating principle
+## 운영 원칙
 
-The current system follows one main flow:
+현재 시스템은 하나의 큰 흐름을 따른다.
 
-`capture -> distill -> connect -> execute -> review`
+`캡처 -> 정제 -> 연결 -> 실행 -> 회고`
 
-More concretely:
+좀 더 구체적으로 보면 이렇다.
 
-- raw capture goes into an inbox
-- papers and external materials get distilled into source notes
-- reusable knowledge becomes concept notes
-- promising directions become idea notes
-- active work is routed into project hubs
-- daily and weekly logs preserve research context, but do not become the final home of important knowledge
+- 날것 그대로의 캡처는 인박스로 들어간다
+- 논문과 외부 자료는 소스 노트로 정제된다
+- 재사용 가능한 지식은 개념 노트가 된다
+- 유망한 방향은 아이디어 노트가 된다
+- 실행 가능한 작업은 프로젝트 허브로 라우팅된다
+- 일간·주간 로그는 연구 맥락을 보존하되, 중요한 지식의 최종 보관소가 되지는 않는다
 
-This distinction matters because different notes have different jobs. A paper note is not the same as a concept note. A project hub is not the same as a daily note. Once these roles are separated, the vault becomes much easier to search and maintain.
+이 구분이 중요한 이유는 노트마다 역할이 다르기 때문이다. 논문 노트는 개념 노트와 같지 않고, 프로젝트 허브는 데일리 노트와 같지 않다. 이 역할들이 분리되면 볼트 전체를 검색하고 관리하기가 훨씬 쉬워진다.
 
-## My current folder structure
+## 현재 폴더 구조
 
-Here is the structure I am now using:
+지금 사용 중인 구조는 다음과 같다.
 
 ```text
 00_System/
@@ -76,182 +76,182 @@ _Templates/
 _Attachments/
 ```
 
-Each top-level folder has a clear role.
+각 최상위 폴더에는 명확한 역할이 있다.
 
 ### `00_System`
 
-This is where I keep the operating rules of the vault itself: workflow rules, metadata conventions, and note design principles. This folder is for system logic, not for storing research content.
+볼트 자체의 운영 규칙을 보관하는 곳이다. 워크플로우 규칙, 메타데이터 컨벤션, 노트 설계 원칙 등이 여기에 들어간다. 연구 콘텐츠가 아니라 시스템 로직을 위한 폴더다.
 
 ### `01_Maps`
 
-This is the dashboard layer. It includes high-level views such as:
+대시보드 레이어다. 여기에는 다음과 같은 상위 뷰가 포함된다.
 
-- a PhD dashboard
-- a literature dashboard
-- a project portfolio
-- an idea incubator
-- an operations dashboard
+- PhD 대시보드
+- 문헌 대시보드
+- 프로젝트 포트폴리오
+- 아이디어 인큐베이터
+- 운영 대시보드
 
-These notes are not the source of truth. They are views into the rest of the vault.
+이 노트들은 원본 데이터가 아니다. 볼트의 나머지 부분을 보여주는 뷰일 뿐이다.
 
 ### `02_Sources`
 
-This is the intake layer for external material.
+외부 자료의 수집 레이어다.
 
-- `Papers/` stores one note per paper or preprint
-- `Reviews/` stores surveys and review articles
-- `Datasets/` stores notes on datasets, benchmarks, and cohorts
-- `Tools/` stores notes on libraries, repositories, and research tools
+- `Papers/`에는 논문·프리프린트당 하나의 노트를 저장한다
+- `Reviews/`에는 서베이 및 리뷰 논문을 저장한다
+- `Datasets/`에는 데이터셋, 벤치마크, 코호트에 대한 노트를 저장한다
+- `Tools/`에는 라이브러리, 레포지토리, 연구 도구에 대한 노트를 저장한다
 
-This folder matters a lot because I want Obsidian to act as my paper database. The important thing is that I am not just saving a PDF. I am saving a distilled Markdown note that explains why the paper matters, what it actually claims, what its limitations are, and whether it sparks a new idea.
+이 폴더가 특히 중요한 이유는 Obsidian을 논문 데이터베이스로 쓰고 싶기 때문이다. 핵심은 PDF만 저장하는 게 아니라는 점이다. 그 논문이 왜 중요한지, 실제로 무엇을 주장하는지, 한계는 무엇인지, 새로운 아이디어를 촉발하는지를 설명하는 정제된 마크다운 노트를 저장하는 것이다.
 
 ### `03_Concepts`
 
-This is where paper-specific notes become reusable knowledge.
+논문 특화 노트가 재사용 가능한 지식으로 변환되는 곳이다.
 
-- `Methods/` for model, algorithm, or pipeline concepts
-- `Clinical/` for domain knowledge and medical context
-- `Data/` for dataset design, labeling, leakage, cohort definitions, and so on
-- `Evaluation/` for metrics, validation design, error analysis, and clinical usefulness
+- `Methods/` — 모델, 알고리즘, 파이프라인 관련 개념
+- `Clinical/` — 도메인 지식과 의학적 맥락
+- `Data/` — 데이터셋 설계, 레이블링, 누출, 코호트 정의 등
+- `Evaluation/` — 평가 지표, 검증 설계, 오류 분석, 임상 유용성
 
-If a paper note says, "This paper uses temporal validation to avoid leakage," the paper note belongs in `02_Sources`, but the reusable understanding of temporal validation belongs in `03_Concepts`.
+만약 어떤 논문 노트에 "이 논문은 누출을 방지하기 위해 시간 기반 검증(temporal validation)을 사용한다"고 적혀 있다면, 논문 노트 자체는 `02_Sources`에 속하지만 시간 기반 검증에 대한 재사용 가능한 이해는 `03_Concepts`에 속한다.
 
 ### `04_Projects`
 
-This is the execution layer.
+실행 레이어다.
 
-The four active research projects each get their own hub:
+네 개의 활성 연구 프로젝트에 각각 허브가 있다.
 
 - `MapOMOP`
 - `KG Agent`
 - `Holter`
 - `ECGFM`
 
-There are also separate spaces for:
+추가로 별도의 공간이 있다.
 
 - `Proposals/`
 - `Lab Ops/`
 
-The reason I separate these is that proposal work and operational tasks are real parts of PhD life, but they should not pollute the logic of the core research projects.
+이렇게 분리하는 이유는 제안서 작업과 운영 업무가 박사과정의 실제 일부이긴 하지만, 핵심 연구 프로젝트의 로직을 오염시켜서는 안 되기 때문이다.
 
 ### `05_Prompts`
 
-This is for reusable prompts only. I do not want to save every prompt I ever write. I only want to store prompts that solve a recurring research task, such as:
+재사용 가능한 프롬프트만을 위한 공간이다. 내가 쓴 모든 프롬프트를 저장하고 싶은 게 아니다. 반복되는 연구 작업을 해결하는 프롬프트만 보관한다. 예를 들면 이런 것들이다.
 
-- paper distillation
-- idea expansion
-- critique of an experiment design
-- reviewer response drafting
-- proposal structuring
+- 논문 정제
+- 아이디어 확장
+- 실험 설계 비평
+- 리뷰어 응답 초안 작성
+- 제안서 구조화
 
 ### `06_Logs`
 
-This is the time-based record.
+시간 기반 기록이다.
 
-- `Daily/` for daily steering
-- `Weekly/` for reflection and planning
-- `Meetings/` for advisor meetings, lab meetings, and collaborations
-- `Reading/` for reading sessions that might later get promoted into more permanent notes
+- `Daily/` — 일일 방향 설정
+- `Weekly/` — 회고와 계획
+- `Meetings/` — 지도교수 미팅, 랩 미팅, 협업 관련
+- `Reading/` — 이후 더 영구적인 노트로 승격될 수 있는 읽기 세션
 
-The critical rule here is that logs store context, not durable knowledge. If something matters later, it should be promoted out of the logs.
+여기서 중요한 규칙은 로그는 맥락을 저장하지, 내구성 있는 지식을 저장하지 않는다는 것이다. 나중에 중요해지는 내용이 있다면 로그에서 꺼내 승격시켜야 한다.
 
 ### `07_Ideas`
 
-This is where I want to do more deliberate idea work.
+보다 의도적인 아이디어 작업을 하는 곳이다.
 
-- `Seeds/` for early fragments
-- `Experiments/` for more concrete hypotheses or testable directions
+- `Seeds/` — 초기 단편들
+- `Experiments/` — 좀 더 구체적인 가설이나 테스트 가능한 방향
 
-This folder exists because some of the most important research moves start as vague but potentially valuable connections between papers, methods, and project problems.
+이 폴더가 존재하는 이유는 가장 중요한 연구적 움직임 중 일부가 논문, 방법론, 프로젝트 문제 사이의 모호하지만 잠재적으로 가치 있는 연결에서 시작되기 때문이다.
 
 ### `90_Inbox`
 
-This is the fast capture layer. It is allowed to be messy, but only temporarily. Notes should move out of this folder once I know what they really are.
+빠른 캡처 레이어다. 지저분해도 괜찮지만, 일시적으로만 그래야 한다. 노트가 뭔지 파악되면 이 폴더에서 옮겨야 한다.
 
-## The note lifecycle I want
+## 내가 원하는 노트 생애주기
 
-One reason I am writing this system down is that I do not want everything to collapse into daily notes. My intended lifecycle looks like this:
+이 시스템을 글로 정리하는 이유 중 하나는 모든 것이 데일리 노트로 붕괴되는 걸 막고 싶기 때문이다. 내가 의도하는 생애주기는 이렇다.
 
-1. Capture something quickly in `90_Inbox` or `06_Logs/Daily`.
-2. If it is a paper, distill it into `02_Sources/Papers`.
-3. If it contains a reusable principle, promote that into `03_Concepts`.
-4. If it suggests a new direction, create an idea note in `07_Ideas`.
-5. If it becomes actionable, link it into one of the project hubs under `04_Projects`.
+1. `90_Inbox`나 `06_Logs/Daily`에 빠르게 캡처한다.
+2. 논문이라면 `02_Sources/Papers`로 정제한다.
+3. 재사용 가능한 원칙이 포함되어 있다면 `03_Concepts`로 승격한다.
+4. 새로운 방향을 제시한다면 `07_Ideas`에 아이디어 노트를 만든다.
+5. 실행 가능해지면 `04_Projects`의 프로젝트 허브에 연결한다.
 
-This makes it possible to read widely without losing the thread of why something mattered.
+이렇게 하면 폭넓게 읽으면서도 그것이 왜 중요했는지의 맥락을 잃지 않을 수 있다.
 
-## What a paper note needs to do
+## 논문 노트가 해야 할 일
 
-The paper note is the center of the whole system right now.
+현재 이 시스템의 중심에는 논문 노트가 있다.
 
-I do not want a paper note to be a long copy-paste summary. I want it to answer:
+논문 노트가 길고 긴 요약 복사본이 되는 건 원하지 않는다. 대신 이런 질문에 답할 수 있어야 한다.
 
-- Why does this paper matter for my research?
-- What problem does it solve?
-- What is the core method or insight?
-- What evidence is actually convincing?
-- What are the limitations?
-- Did it generate any project-specific ideas?
-- Is there an immediate next action?
+- 이 논문이 내 연구에 왜 중요한가?
+- 어떤 문제를 해결하는가?
+- 핵심 방법이나 통찰은 무엇인가?
+- 어떤 증거가 실제로 설득력 있는가?
+- 한계점은 무엇인가?
+- 프로젝트에 특화된 아이디어가 생겼는가?
+- 즉각적인 후속 조치가 있는가?
 
-So the paper note template currently emphasizes:
+그래서 현재 논문 노트 템플릿은 다음을 강조한다.
 
-- why this paper matters
-- one-paragraph summary
-- research question
-- key findings
-- method and data
-- limitations
-- idea sparks
-- follow-up actions
+- 이 논문이 중요한 이유
+- 한 문단 요약
+- 연구 질문
+- 주요 발견
+- 방법 및 데이터
+- 한계점
+- 아이디어 스파크
+- 후속 조치
 
-That is much closer to how I actually read papers during a PhD than a conventional literature memo.
+이건 기존의 문헌 메모보다 내가 박사과정에서 실제로 논문을 읽는 방식에 훨씬 가깝다.
 
-## Why I separated papers, concepts, ideas, and projects
+## 논문, 개념, 아이디어, 프로젝트를 분리한 이유
 
-This is probably the single most important design decision.
+아마 이게 가장 중요한 설계 결정일 것이다.
 
-If I keep everything in one flat layer, then I end up with a pile of notes that are individually fine but collectively not very useful. Separating them forces a distinction between:
+모든 것을 하나의 평면적인 레이어에 두면, 개별적으로는 괜찮지만 전체적으로는 별로 유용하지 않은 노트 더미가 만들어진다. 분리를 강제함으로써 다음의 구분이 생긴다.
 
-- what I read
-- what I learned
-- what I might do
-- what I am doing now
+- 내가 읽은 것
+- 내가 배운 것
+- 내가 할 수도 있는 것
+- 내가 지금 하고 있는 것
 
-That separation is what allows the vault to support idea generation instead of just storage.
+이 분리가 있어야 볼트가 단순한 저장소가 아니라 아이디어 생성을 지원할 수 있다.
 
-## Metadata and dashboards
+## 메타데이터와 대시보드
 
-I am also using metadata so the vault can be queried and reorganized later. The specific fields will probably evolve, but the current direction is:
+볼트를 나중에 쿼리하고 재구성할 수 있도록 메타데이터도 활용하고 있다. 구체적인 필드는 아마 계속 바뀌겠지만, 현재 방향은 이렇다.
 
 - `type`
 - `status`
 - `projects`
 - `topics`
 - `summary`
-- paper-specific fields such as `authors`, `year`, `venue`, `methods`, `paper_stage`, and `priority`
+- 논문 전용 필드: `authors`, `year`, `venue`, `methods`, `paper_stage`, `priority`
 
-The point of this is not administrative perfection. The point is to make the vault queryable. Once notes have reliable frontmatter, I can build dashboards that show things like:
+이것의 목적은 행정적 완벽함이 아니다. 볼트를 쿼리 가능하게 만드는 것이다. 노트에 안정적인 프론트매터가 있으면 다음과 같은 대시보드를 만들 수 있다.
 
-- papers I still need to read
-- papers already distilled
-- ideas that are ready to test
-- projects with unclear current focus
-- proposal work with deadlines
+- 아직 읽지 않은 논문
+- 이미 정제된 논문
+- 테스트할 준비가 된 아이디어
+- 현재 초점이 불분명한 프로젝트
+- 마감일이 있는 제안서 작업
 
-That turns Obsidian from a passive archive into an active research interface.
+이것이 Obsidian을 수동적 아카이브에서 능동적 연구 인터페이스로 바꿔준다.
 
-## What I still need to refine
+## 아직 다듬어야 할 것들
 
-This system is still in progress. The next things I need to make more opinionated are:
+이 시스템은 아직 진행 중이다. 다음으로 좀 더 확실한 규칙을 세워야 할 것들은 이렇다.
 
-### 1. Naming rules
+### 1. 명명 규칙
 
-I still need a strict naming scheme, especially for paper notes, meeting notes, proposal notes, and idea notes. Good naming matters because search, sorting, and consistency break quickly if I improvise too much.
+논문 노트, 미팅 노트, 제안서 노트, 아이디어 노트에 대한 엄격한 명명 체계가 아직 필요하다. 좋은 명명 규칙이 중요한 이유는 너무 즉흥적으로 이름을 짓기 시작하면 검색, 정렬, 일관성이 금방 무너지기 때문이다.
 
-### 2. Metadata depth
+### 2. 메타데이터 깊이
 
-I need to decide which fields are actually worth maintaining in medical AI. For example, it may be useful to add fields such as:
+의료 AI에서 실제로 유지할 가치가 있는 필드가 뭔지 결정해야 한다. 예를 들어 다음과 같은 필드를 추가하면 유용할 수 있다.
 
 - `modality`
 - `task`
@@ -260,48 +260,48 @@ I need to decide which fields are actually worth maintaining in medical AI. For 
 - `external_validation`
 - `code_available`
 
-But too many fields can also become overhead.
+하지만 필드가 너무 많으면 그것 자체가 오버헤드가 될 수 있다.
 
-### 3. Prompt library standards
+### 3. 프롬프트 라이브러리 기준
 
-I want to keep only high-value prompts, not every prompt. So I still need a rule for what deserves to become a reusable prompt asset.
+모든 프롬프트가 아니라 가치 있는 프롬프트만 보관하고 싶다. 어떤 프롬프트가 재사용 가능한 자산으로 남을 자격이 있는지에 대한 규칙이 아직 필요하다.
 
-### 4. Weekly review discipline
+### 4. 주간 리뷰 습관
 
-The system only works if I regularly move good material out of logs and into stable notes. That means weekly review is not optional.
+이 시스템은 로그에서 좋은 자료를 꺼내 안정적인 노트로 옮기는 작업을 정기적으로 해야만 작동한다. 즉, 주간 리뷰는 선택이 아니다.
 
-## Why I think this matters for research productivity
+## 이것이 연구 생산성에 중요한 이유
 
-Most productivity systems become useless for research when they optimize only for task capture. Research is not just about tasks. It is about building a memory of questions, failed lines of thought, promising fragments, recurring methods, and useful papers.
+대부분의 생산성 시스템은 할 일 캡처에만 최적화되어 있어서 연구에는 별로 쓸모가 없어진다. 연구는 단순한 태스크 관리가 아니다. 질문의 기억, 실패한 사고의 흐름, 유망한 단편들, 반복적으로 등장하는 방법론, 유용한 논문들로 이루어진 기억의 체계를 구축하는 일이다.
 
-What I am trying to build is a system where:
+내가 만들고자 하는 건 이런 시스템이다.
 
-- papers are easy to retrieve
-- ideas are easier to revisit
-- projects are easier to steer
-- context is easier to recover
+- 논문을 쉽게 다시 찾을 수 있다
+- 아이디어를 쉽게 다시 꺼낼 수 있다
+- 프로젝트를 쉽게 방향 전환할 수 있다
+- 맥락을 쉽게 복원할 수 있다
 
-That is the kind of structure that reduces friction not by making me "more organized" in the abstract, but by lowering the cost of thinking across time.
+이것은 추상적으로 "더 정리된" 사람이 되는 것이 아니라, 시간에 걸쳐 사고하는 비용을 낮추는 구조를 만드는 일이다.
 
-## Current status
+## 현재 상태
 
-As of April 4, 2026, I have:
+2026년 4월 4일 기준으로 다음을 완료했다.
 
-- restructured the vault into papers, concepts, ideas, projects, prompts, and logs
-- created dedicated project hubs for `MapOMOP`, `KG Agent`, `Holter`, and `ECGFM`
-- separated proposal work and lab operations from core project space
-- created dedicated templates for paper, idea, proposal, meeting, weekly review, and project notes
-- added dashboard notes for literature, ideas, operations, and overall PhD tracking
+- 볼트를 논문, 개념, 아이디어, 프로젝트, 프롬프트, 로그로 재구성
+- `MapOMOP`, `KG Agent`, `Holter`, `ECGFM` 전용 프로젝트 허브 생성
+- 제안서 작업과 랩 운영을 핵심 프로젝트 공간에서 분리
+- 논문, 아이디어, 제안서, 미팅, 주간 리뷰, 프로젝트 노트용 전용 템플릿 생성
+- 문헌, 아이디어, 운영, 전체 PhD 추적을 위한 대시보드 노트 추가
 
-The system is not finished yet, but it is now opinionated enough that I can start using it as a real research database instead of a vague note collection.
+시스템이 아직 완성된 건 아니지만, 이제 막연한 노트 모음이 아니라 실제 연구 데이터베이스로 쓸 수 있을 만큼 충분히 체계가 잡혔다.
 
-## Update log
+## 업데이트 로그
 
 ### 2026-04-04
 
-- defined the overall vault structure
-- clarified the role of each top-level folder
-- established the paper -> concept -> idea -> project workflow
-- created the first version of templates and dashboards
+- 전체 볼트 구조 정의
+- 각 최상위 폴더의 역할 명확화
+- 논문 → 개념 → 아이디어 → 프로젝트 워크플로우 확립
+- 템플릿 및 대시보드 첫 번째 버전 생성
 
-I expect to keep updating this post as the system becomes more concrete in actual use.
+실제로 사용하면서 시스템이 더 구체화될 때마다 이 글을 계속 업데이트할 예정이다.
