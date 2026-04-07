@@ -10,6 +10,7 @@ tags: [obsidian, research, phd, medical-ai, productivity]
 
 - 1편: 전체 overview
 - 2편: [literature dashboard]({% post_url 2026-04-06-obsidian-for-phd-research-literature-dashboard %})
+- 3편: [PhD dashboard]({% post_url 2026-04-07-obsidian-for-phd-research-phd-dashboard %})
 
 지금 내가 운영하는 볼트는 의료 AI 박사과정의 실제 작업 흐름을 기준으로 설계되어 있다. 중심 연구 라인은 `MapOMOP`, `KG Agent`, `Holter`, `ECGFM` 네 가지이고, 여기에 더해 제안서 작업과 랩 운영 업무까지 함께 관리한다. 그래서 이 볼트는 범용적인 생산성 도구가 아니라, 연구 자료를 저장하고 맥락을 복원하고 실행 단위까지 연결하는 운영 체제에 가깝다.
 

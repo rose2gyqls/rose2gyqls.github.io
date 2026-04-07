@@ -10,6 +10,7 @@ tags: [obsidian, research, phd, literature-review, medical-ai, productivity]
 
 - 1편: [전체 overview]({% post_url 2026-04-04-obsidian-for-phd-research %})
 - 2편: literature dashboard
+- 3편: [PhD dashboard]({% post_url 2026-04-07-obsidian-for-phd-research-phd-dashboard %})
 
 문헌 대시보드는 단순히 논문 목록을 보여주는 페이지가 아니다. 내가 원하는 것은 프로젝트와 연결된 논문 데이터베이스이면서, 동시에 읽기 상태와 한계점, 후속 아이디어까지 바로 이어질 수 있는 작업 인터페이스였다.
 
